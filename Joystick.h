@@ -6,9 +6,9 @@
 
 /* Estruturas de joystick */
 typedef struct {
-    bool pulando;
-    double tempo_pulo;
-    double altura_inicial;
+    bool pulo;
+    double tempoPulo;
+    double alturaInicial;
 } ControlePulo;
 
 typedef struct {
@@ -20,12 +20,12 @@ typedef struct {
 } joystick;
 
 /* Funções de joystick */
-joystick* cria_joystick();
-void move_personagem_esquerda(joystick *elemento);
-void move_personagem_direita(joystick *elemento);
-void personagem_abaixa(joystick *elemento);
-void personagem_pula(joystick *elemento);
-void personagem_ataca(joystick *elemento);
-void destroi_joystick(joystick *elemento);
+joystick* criaJoystick();
+void movePersonagemEsquerda(joystick *elemento);
+void movePersonagemDireita(joystick *elemento);
+void personagemPula(joystick *elemento);
+void personagemAbaixa(joystick *elemento);
+void personagemAtaca(joystick *elemento);
+void destroiJoystick(joystick *elemento);
 
 #endif

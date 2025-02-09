@@ -11,5 +11,5 @@
 #define ESPACO_ENTRE_PERSONAGENS 20
 
 /* Funções de menu */
-int exibir_menu_inicial(ALLEGRO_FONT* font, ALLEGRO_DISPLAY* disp);
-int exibir_menu_personagens(ALLEGRO_FONT* font, ALLEGRO_DISPLAY* disp, ALLEGRO_BITMAP* sprites[], ALLEGRO_BITMAP* spritesPB[], int num_personagens, int* selecoes);
+int exibirMenuInicial(ALLEGRO_FONT* font, ALLEGRO_DISPLAY* disp);
+int exibirMenuPersonagens(ALLEGRO_FONT* font, ALLEGRO_DISPLAY* disp, ALLEGRO_BITMAP* sprites[], ALLEGRO_BITMAP* spritesPB[], int num_personagens, int* selecoes);

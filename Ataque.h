@@ -21,11 +21,11 @@ typedef struct {
 } ataque;
 
 /* Funções de ataque */
-ataque* inicializa_ataque();
-dano* inicializa_dano(unsigned short x, unsigned short y, unsigned char trajetoria, dano *next);
-dano* aplica_ataque(unsigned short x, unsigned short y, unsigned char trajetoria, ataque *gun);
-void aplica_dano(dano *elements);
-void destroi_ataque(ataque *element);
-void destroi_dano(dano *element);
+ataque* inicializaAtaque();
+dano* inicializaDano(unsigned short x, unsigned short y, unsigned char trajetoria, dano *next);
+dano* aplicaAtaque(unsigned short x, unsigned short y, unsigned char trajetoria, ataque *gun);
+void aplicaDano(dano *elements);
+void destroiAtaque(ataque *element);
+void destroiDano(dano *element);
 
 #endif
